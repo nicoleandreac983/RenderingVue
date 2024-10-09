@@ -8,6 +8,8 @@ export default defineConfig({
   plugins: [
     vue(),
   ],
+  base: 'https://nicoleandreac983.github.io/RenderingVue/',
+
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
